@@ -172,7 +172,6 @@ const Set2 = () =>{
           <th>Model</th>
           <th> </th>
           <button onClick={() => AddSearch(name,price,color,brand,model)}>Tìm</button>
-          <button >Select</button>
         </tr>
       </thead>
       <tbody>
@@ -249,7 +248,6 @@ const Set2 = () =>{
       
       <button onClick={() => handleSubmit(update)}>Thêm</button>
       <button onClick={() =>Update(a,update)}>Sửa</button>
-      <button  onClick={() =>Set2()}>Select</button>
     </form>
 
     
